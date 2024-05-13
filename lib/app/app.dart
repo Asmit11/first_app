@@ -1,4 +1,4 @@
-import 'package:first_app_32a/screen/flexible_expanded_screen.dart';
+import 'package:first_app_32a/screen/bottom_screen/dashboard.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -9,7 +9,7 @@ class App extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       // theme
-      home: FlexibleExpandedScreen(),
+      home: DashboardScreen(),
     );
   }
 }
